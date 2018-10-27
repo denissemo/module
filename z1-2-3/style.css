@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Задание 1, 2*/
+span, code {
+    font-size: 120%;
+}
+
+span {
+    color: red;
+}
+
+.s1, .s2, .s3 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+
+.s1 {
+    top: 10px;
+    left: 10px;
+    background: blue;
+}
+
+.s2 {
+    top: 90px;
+    left: 90px;
+    background: red;
+}
+
+.s3 {
+    top: 170px;
+    left: 170px;
+    background: green;
+}
+
+.code {
+    position: relative;
+    top: 300px;
+    left: 10px;
+}
+
+/* Задание 3*/
+.back {
+    background: grey;
+    top: 350px;
+    left: 10px;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.s11, .s12, .s13 {
+    margin: -2px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}
